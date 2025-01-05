@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RentACarApp_CemilD
 {
-    public partial class Kiralamalar : Form
+    public partial class Bilgilendirme : Form
     {
-        public Kiralamalar()
+        public Bilgilendirme()
         {
             InitializeComponent();
         }

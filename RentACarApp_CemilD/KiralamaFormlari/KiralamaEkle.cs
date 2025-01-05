@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RentACarApp_CemilD
+namespace RentACarApp_CemilD.Kiralamalar
 {
-    public partial class Uyeler : Form
+    public partial class KiralamaEkle : Form
     {
-        public Uyeler()
+        public KiralamaEkle()
         {
             InitializeComponent();
         }

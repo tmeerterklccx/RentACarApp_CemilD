@@ -12,5 +12,6 @@ namespace EntityLayer.Concrete
         [Key]
         public int BrandID { get; set; }
         public string Name { get; set; }
+        public Car Car { get; set; }
     }
 }

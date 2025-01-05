@@ -100,6 +100,7 @@
             bilgilendirmelerBTN.TabIndex = 4;
             bilgilendirmelerBTN.Text = "BİLGİLENDİRMELER";
             bilgilendirmelerBTN.UseVisualStyleBackColor = true;
+            bilgilendirmelerBTN.Click += bilgilendirmelerBTN_Click;
             // 
             // label1
             // 
@@ -245,6 +246,7 @@
             Controls.Add(araclarBTN);
             Name = "RentACar";
             Text = "RentACar";
+            Load += RentACar_Load;
             ResumeLayout(false);
             PerformLayout();
         }

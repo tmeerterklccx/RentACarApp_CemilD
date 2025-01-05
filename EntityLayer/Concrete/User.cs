@@ -20,5 +20,6 @@ namespace EntityLayer.Concrete
         public bool Yetki { get; set; }
 
         public bool Statu { get; set; }
+        public Rent Rent { get; set; }
     }
 }

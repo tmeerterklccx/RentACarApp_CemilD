@@ -19,8 +19,8 @@ namespace RentACarApp_CemilD
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Araclar araclar = new Araclar();
-            araclar.Show();
+            //Araclar araclar = new Araclar();
+            //araclar.Show();
 
         }
 
@@ -38,8 +38,19 @@ namespace RentACarApp_CemilD
 
         private void kiralamalarBTN_Click(object sender, EventArgs e)
         {
-            Kiralamalar kiralamalar = new Kiralamalar();
-            kiralamalar.Show();
+            //Kiralamalar kiralamalar = new Kiralamalar();
+            //kiralamalar.Show();
+        }
+
+        private void bilgilendirmelerBTN_Click(object sender, EventArgs e)
+        {
+            Bilgilendirme bilgilendirme = new Bilgilendirme();
+            bilgilendirme.Show();
+        }
+
+        private void RentACar_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

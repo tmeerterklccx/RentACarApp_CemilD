@@ -17,7 +17,7 @@ namespace RentACarApp_CemilD
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Giris());
+            Application.Run(new RentACar());
         }
         private static void ConfigureServices(ServiceCollection services)
         {
@@ -32,6 +32,10 @@ namespace RentACarApp_CemilD
 
             services.AddScoped<Giris>();
             services.AddScoped<RentACar>();
+            services.AddScoped<Uyeler>();
+            services.AddScoped<UyeEkle>();
+            services.AddScoped<UyeGuncelle>();
+            services.AddScoped<Markalar>();
         }
     }
 }
